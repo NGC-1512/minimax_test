@@ -1,0 +1,92 @@
+.title{
+  font-family: arial, Sans-Serif;
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.headerX{
+  background-color: #ee0000;
+  border-radius: 5px;
+  color: #bbbbff;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 5px 15px #888888;
+  width: 100px;
+}
+
+.headerY{
+  background-color: #0000ee;
+  border-radius: 5px;
+  color: #ff9999;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: -5px 5px 15px #888888;
+  width: 100px;
+}
+
+.win{
+  font-family: Arial, Sans-Serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.restart{
+  display: none;
+}
+
+.bar{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.cube {
+  width: 50px;
+  min-height: 50px;
+  border: 2px solid #4f4f4f;
+  text-align: center;
+  font-family: Arial, Sans-Serif;
+  font-size: 30px;
+}
+
+.navbar{
+  color: #efeffb;
+}
+
+.img{
+  border: 0.5px solid #888888;
+  max-width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.explain{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18,21,27,1);
+}
+
+@media screen and (max-width: 1200px) and (min-width: 800px){
+  .Mcards{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .Ccards{
+    display: none;
+  }
+  .headerX, .headerY{
+    width: 80px;
+    font-size: 12px;
+  }
+  h1{
+    font-size: 21px;
+  }
+  h2{
+    font-size: 18px;
+  }
+}
